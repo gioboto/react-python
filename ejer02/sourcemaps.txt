@@ -1,0 +1,7 @@
+python3.11 -m venv venv
+source venv/bin/activate
+(venv) $pip install transcrypt==3.9.1
+
+(venv) $ transcrypt --nomin --map sourcemap
+
+(venv) $ python -m http.server

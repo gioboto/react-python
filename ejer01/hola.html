@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <script type="module">
+            import {di_hola, limpia} from "./__target__/hola.js";
+            document.getElementById("Botondi").onclick = di_hola;
+            document.getElementById("Botonlimpia").onclick = limpia;
+        </script>
+        <button type="button" id="Botondi">Click aqui!</button>
+        <button type="button" id="Botonlimpia">Limpiar</button>
+        <div id="destination"></div>
+    </body>
+</html>
+

@@ -1,0 +1,11 @@
+python3.11 -m venv venv
+
+vi hola.py
+vi hola.html
+
+transcrypt --nomin --map hola
+
+python -m http.server
+
+control + c
+deactivate

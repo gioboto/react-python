@@ -1,0 +1,8 @@
+{
+	"version": 3,
+	"file": "sourcemap.js",
+	"sources": [
+		"sourcemap.py"
+	],
+	"mappings": "AAAA;AAGA;AAHA;AAAA;AACA;AACA;AACA;AAAA;AAAA"
+}
